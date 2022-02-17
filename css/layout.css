@@ -312,6 +312,10 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 /*	Table
 /*----------------------------------------------*/
+ul.bulletpoints { 
+ padding-left: 18px;
+ list-style-type: square;
+}
 ul.industrydata {
   list-style-type: square;
 }
