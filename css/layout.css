@@ -15,10 +15,12 @@
    g. Portfolio Section
    h. Call To Action Section
    i. Testimonials Section
-   j. Project Section
-   k. Reflection Section
-   l. Contact Section
-   m. Footer
+   j. Group Processes Section
+   k. Career Plans Section
+   l. Project Section
+   m. Reflection Section
+   n. Contact Section
+   o. Footer
 
 ===================================================================== */
 
@@ -878,7 +880,59 @@ call-to-action .button {
 }
 
 /* ------------------------------------------------------------------ */
-/* j. Project Section
+/* j. Group Processes Section
+/* ------------------------------------------------------------------ */
+#GroupProcesses {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 0px;
+   overflow: hidden;
+}
+
+
+
+#GroupProcesses h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#GroupProcesses  h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#GroupProcesses  p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+
+/* ------------------------------------------------------------------ */
+/* k. Career Plans Section
+/* ------------------------------------------------------------------ */
+
+
+#CareerPlans {
+background: #fff;
+   padding-top: 90px;
+   padding-bottom: 0px;
+   overflow: hidden;
+}	 
+
+#CareerPlans h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#CareerPlans  h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+#CareerPlans  p {
+   line-height: 30px;
+   color: #7A7A7A;
+}
+
+/* ------------------------------------------------------------------ */
+/* l. Project Section
 /* ------------------------------------------------------------------ */
 
 #project {
@@ -924,7 +978,7 @@ call-to-action .button {
    margin-top: 6px;
 }
 /* ------------------------------------------------------------------ */
-/* k. Reflection Section
+/* m. Reflection Section
 /* ------------------------------------------------------------------ */
 
 #reflection {
@@ -950,7 +1004,7 @@ call-to-action .button {
    color: #7A7A7A;
 }
 /* ------------------------------------------------------------------ */
-/* l. Contact Section
+/* n. Contact Section
 /* ------------------------------------------------------------------ */
 
 #contact {
@@ -1087,7 +1141,7 @@ call-to-action .button {
 
 
 /* ------------------------------------------------------------------ */
-/* m. Footer
+/* o. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
