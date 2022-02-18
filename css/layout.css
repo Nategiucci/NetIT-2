@@ -383,6 +383,28 @@ ul.industrydata_sub {
   color: white;
 }
 
+#timeframe {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#timeframe td, #timeframe th {
+  border: 1px solid #ddd;
+  padding: 16px;
+}
+
+#timeframe tr:nth-child(even){background-color: #f2f2f2;}
+
+#timeframe tr:hover {background-color: #ddd;}
+
+#timeframe th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #333;
+  color: white;
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
