@@ -811,7 +811,7 @@ call-to-action .button {
    padding: 0;
    font-size: 24px;
    line-height: 48px;
-   color: #fff
+   color: #fff;
 }
 #testimonials blockquote cite {
    display: block;
@@ -912,28 +912,37 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 /* j. Group Processes Section
 /* ------------------------------------------------------------------ */
+
 #GroupProcesses {
-   background: #fff;
-   padding-top: 90px;
-   padding-bottom: 0px;
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
-
-
+#GroupProcesses a, #GroupProcesses a:visited  { color: #fff; }
+#GroupProcesses a:hover, #GroupProcesses a:focus { color: #11ABB0; }
 #GroupProcesses h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+   font: 40px/48px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
 }
-#GroupProcesses  h1 span {
-   border-bottom: 3px solid #11ABB0;
-   padding-bottom: 6px;
+#GroupProcesses h2 {
+   font: 37px/45px 'opensans-bold', sans-serif;
+   color: #fff;
+   
+   margin-bottom: 12px;
 }
-#GroupProcesses  p {
+#GroupProcesses p {
    line-height: 30px;
    color: #7A7A7A;
 }
+
+
+
+}
+#GroupProcesses.main-col { padding-right: 5%; }
+
 
 /* ------------------------------------------------------------------ */
 /* k. Career Plans Section
@@ -941,25 +950,34 @@ call-to-action .button {
 
 
 #CareerPlans {
-background: #fff;
-   padding-top: 90px;
-   padding-bottom: 0px;
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
    overflow: hidden;
-}	 
+}
+
+#CareerPlans a, #CareerPlans a:visited  { color: #fff; }
+#CareerPlans a:hover, #CareerPlans a:focus { color: #11ABB0; }
 
 #CareerPlans h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
+   font: 37px/45px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
 }
-#CareerPlans  h1 span {
-   border-bottom: 3px solid #11ABB0;
-   padding-bottom: 6px;
+#CareerPlans h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
 }
-#CareerPlans  p {
+#CareerPlans p {
    line-height: 30px;
    color: #7A7A7A;
 }
+
+#CareerPlans.contact-details { width: 41.66667%; }
+
+}
+#CareerPlans.main-col { padding-right: 5%; }
 
 /* ------------------------------------------------------------------ */
 /* l. Project Section
